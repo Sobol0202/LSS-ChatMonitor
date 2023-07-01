@@ -47,7 +47,7 @@
                     if (letzteNachrichtZeit && letzteNachrichtZeit < zeit) {
   //                      console.log('Neue Nachricht empfangen!');
                         var chatButton = document.querySelector('a.btn.btn-xs.navbar-btn.mobile-navbar-selector[target_element="chat"]');
-                        chatButton.textContent = 'Chat (Neue Nachricht)';
+                        chatButton.textContent = 'Chat!!!';
                         chatButton.classList.add('chat-button-new-message');
                     } else {
                         resetChatButton();
